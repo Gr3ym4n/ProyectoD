@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblCP" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtCODIGOPOSTAL" min="-2" pref="63" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblPOBLACION" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtPOBLACION" min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblDIRECCION" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="txtDIRECCION" min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblPROVINCIA" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="txtPROVINCIA" min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblTELEFONO" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="txtTELEFONO" min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblFAX" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                      <Component id="txtFAX" min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblNOMBRE" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="txtNOMBRE" min="-2" pref="122" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblPERSONA" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNIF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtNIFCIF" min="-2" pref="122" max="-2" attributes="0"/>
+                              <Component id="txtPERSONA" min="-2" pref="122" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="btnACTUALIZAR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnRESET" min="-2" pref="113" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblMAIL" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="txtMAIL" min="-2" pref="122" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNIF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNIFCIF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNOMBRE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNOMBRE" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPERSONA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPERSONA" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDIRECCION" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDIRECCION" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCP" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPOBLACION" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCODIGOPOSTAL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPOBLACION" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPROVINCIA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPROVINCIA" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTELEFONO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTELEFONO" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFAX" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFAX" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMAIL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMAIL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnACTUALIZAR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRESET" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblNIF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NIF/CIF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNOMBRE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOMBRE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPERSONA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PERSONA FISICA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDIRECCION">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIRECCION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CODIGO POSTAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPOBLACION">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="POBLACION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPROVINCIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PROVINCIA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTELEFONO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TELEFONO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFAX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FAX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMAIL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-MAIL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNIFCIF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNOMBRE">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPERSONA">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDIRECCION">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCODIGOPOSTAL">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPOBLACION">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPROVINCIA">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTELEFONO">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFAX">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMAIL">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnACTUALIZAR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ACTUALIZAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnACTUALIZARActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRESET">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RESET"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[95, 23]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[95, 23]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[95, 23]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRESETActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
